@@ -1,0 +1,11 @@
+package java.dependencyinjection.consumer;
+
+public class MyDIApplication implements Consumer {
+
+	@Override
+	public void processMessages(String msg, String rec) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

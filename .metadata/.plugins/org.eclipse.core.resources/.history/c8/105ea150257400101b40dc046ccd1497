@@ -1,0 +1,11 @@
+package java.dependencyinjection.service;
+
+public class EmailServiceImpl implements MessageService {
+
+	@Override
+	public void sendMessage(String msg, String rec) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

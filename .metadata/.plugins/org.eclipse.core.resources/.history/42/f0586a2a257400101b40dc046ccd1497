@@ -1,0 +1,5 @@
+package java.dependencyinjection.service;
+
+public interface MessageService {
+
+}

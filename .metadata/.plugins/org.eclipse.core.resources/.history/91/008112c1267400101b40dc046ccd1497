@@ -1,0 +1,15 @@
+package com.dependencyinjection.injector;
+
+import java.dependencyinjection.service.EmailServiceImpl;
+
+import com.dependencyinjection.consumer.Consumer;
+import com.dependencyinjection.consumer.MyDIApplication;
+
+public class EmailServiceInjector implements MessageServiceInjector {
+
+	@Override
+	public Consumer getConsumer() {
+		return new MyDIApplication(new EmailServiceImpl());
+	} 
+
+}

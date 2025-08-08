@@ -1,0 +1,7 @@
+package java.dependencyinjection.injector;
+
+import java.dependencyinjection.consumer.Consumer;
+
+public interface MessageServiceInjector {
+	public Consumer getConsumer();
+}
